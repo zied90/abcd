@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/ton-utilisateur/ton-repo.git'
+                git 'https://github.com/zied90/abcd.git'
             }
         }
         stage('Install Dependencies') {
